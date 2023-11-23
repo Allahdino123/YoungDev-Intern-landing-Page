@@ -513,9 +513,17 @@ footer{
 
 
  @media (max-width:475px){
+     
     #home {
         margin-top: 12px;
         height: 60vh;
        
     }
+     #worker .work-container {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    border-radius: 4px;
+}
  }
