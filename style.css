@@ -513,18 +513,6 @@ footer{
 
 
  @media (max-width:476px){
-     nav {
-    position: fixed;
-    width: 31%;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1vw 8vw;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
-    z-index: 999;
-}
     #home {
         margin-top: 12px;
         height: 60vh;
@@ -548,7 +536,9 @@ footer{
     border-radius: 4px;
 }
 #contact .contact-container .contain-map{
-    width: 50%;
+    width: 30%;
 }
-
+#contact .contact-container .contain-map iframe{
+    width: 100%;
+}
  }
