@@ -547,5 +547,8 @@ footer{
     gap: 1rem;
     border-radius: 4px;
 }
+#contact .contact-container .contain-map{
+    width: 50%;
 }
+
  }
